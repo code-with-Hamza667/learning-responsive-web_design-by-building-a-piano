@@ -11,4 +11,28 @@ html {
     width: 992;
     height: 290;
     margin: 80 auto;
+    padding: 90px 20px 0 20px;
+}
+
+.keys {
+    background-color: #040404;
+    width: 949;
+    height: 180;
+    padding-left: 2px;
+}
+
+.key {
+    position: relative;
+    background-color: #ffffff;
+    width: 41;
+    height: 175;
+    margin: 2px;
+    float: left;
+}
+
+.key.black--key::after {
+content: "";
+background-color: #1d1e22;
+position: absolute;
+left: -18;
 }
